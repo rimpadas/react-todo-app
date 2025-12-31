@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+
+import UserList from "./User/UserList";
 
 function App() {
 
   return (
-    <div>
-      <h2>Todo</h2>
-    </div>
-  )
+   <UserList />
+  );
 }
 
-export default App
+export default App;
